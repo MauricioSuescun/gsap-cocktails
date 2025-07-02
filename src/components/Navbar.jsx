@@ -9,8 +9,6 @@ const Navbar = () => {
         trigger: "nav",
         start: "top top",
         end: "bottom top",
-        scrub: true,
-        markers: true,
       },
     });
     navTween.fromTo(
@@ -29,8 +27,8 @@ const Navbar = () => {
     <nav className="p-4">
       <div className="container mx-auto">
         <a href="#home" className="flex items-center gap-2">
-          <img src="/images/logo.png" alt="Velvet Pour Logo" />
-          <p>Velvet Pour</p>
+          <img src="/images/logo.png" alt="Guapea Bar Logo" />
+          <p>Guapea Bar</p>
         </a>
 
         <ul>
